@@ -1,0 +1,66 @@
+/* Light Mode Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 20px;
+    color: white;
+    text-align: center;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 600;
+}
+
+button, input[type="submit"], .btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    margin: 20px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+header.dark-mode {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+button.dark-mode, .btn.dark-mode {
+    background-color: #666666;
+}
+
+button.dark-mode:hover, .btn.dark-mode:hover {
+    background-color: #555555;
+}
+
+/* Additional styling adjustments for dark mode */
+table {
+    background-color: #444444;
+    color: white;
+}
+
+input, textarea {
+    background-color: #555555;
+    color: white;
+}
+
